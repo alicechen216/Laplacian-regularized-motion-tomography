@@ -1,6 +1,5 @@
 % MATLAB code to reimplement the numerical experiment from the paper
 % "Laplacian regularized motion tomography for underwater vehicle flow mapping"
-% VERSION 2: Corrected Laplacian Matrix Construction
 
 clear; clc; close all;
 
