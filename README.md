@@ -5,7 +5,11 @@ This repository contains MATLAB code to reproduce the numerical experiments from
 It implements the **Motion Tomography (MT)** and **Regularized Motion Tomography (RMT)** algorithms to estimate oceanic flow fields from simulated Autonomous Underwater Vehicle (AUV) trajectories.
 
 ---
+### Flow Field Comparison
+![Flow Field](FlowFieldComparison.png)
 
+### RMS Error Convergence
+![RMS Error](RMSerrorcovergence.png)
 ## Features
 
 - Simulates a 2D underwater flow field (cyclonic vortex) over a square domain.
@@ -48,43 +52,14 @@ It implements the **Motion Tomography (MT)** and **Regularized Motion Tomography
 
 ---
 
-## Usage
-
-1. Clone the repository:
-```bash
-git clone https://github.com/<your-username>/laplacian-motion-tomography.git
-cd laplacian-motion-tomography
-```
-
-2. Run the MATLAB script:
-```matlab
-main.m
-```
 
 3. The script will generate:
    - **Flow Field Comparison**: Quiver plots of true and estimated flow.
    - **RMS Error Convergence**: Error curves for MT and RMT.
 
----
 
-## Example Plots
 
-### Flow Field Comparison
-![Flow Field](figures/flow_field_comparison.png)
 
-### RMS Error Convergence
-![RMS Error](figures/rms_error_convergence.png)
 
-> Replace the placeholders with your MATLAB-generated figures.
 
----
 
-## Code Structure
-
-| File | Description |
-|------|-------------|
-| `main.m` | Main MATLAB script that runs the simulation and estimation. |
-| `utils/` | Optional: Helper functions for grid setup and Laplacian construction. |
-| `figures/` | Folder to save MATLAB-generated plots for README visualization. |
-
----
